@@ -11,3 +11,8 @@ $(document).ready(function() {
 function initializePage() {
 	// your code here
 }
+
+
+document.getElementById("like").addEventListener("click",function(){
+	ga("send", "event", 'like', 'click');
+});
